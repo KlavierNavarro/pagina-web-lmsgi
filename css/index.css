@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Yuji+Boku&display=swap');
+
+@font-face {
+	font-family: Taranis;
+	src: url(Taranis.ttf);
+}
+
+html {
+    font-family: 'Brygada 1918', serif;
+}
+
+body {
+    background: url("../images/fondopagina.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.jello {
+    width: 1450px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(43, 43, 43, 0.2);
+}
+
+#relativeJello {
+    position: relative;
+    height: 1393px;
+}
+
+header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    border-radius: 6px;
+}
+
+header p img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.125);
+    border-radius: 6px;
+    height: 57px;
+}
+
+nav ul { 
+    list-style-type: none;
+    padding: 18px 0px 20px 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 22px 15px 17px 15px;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: none;
+    text-decoration: none;
+    line-height: 25px;
+    padding-left: 28px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+}
+
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.125);
+}
+
+#displayflex {
+    background-image: url(../images/personaje_icon.png);
+}
+
+#absolute {
+    background-image: url(../images/enemigo_icon.png);
+}
+
+#displaygrid {
+    background-image: url(../images/aldeano_icon.png);
+}
+
+#displaytable {
+    background-image: url(../images/clave_icon.png);
+}
+
+#float {
+    background-image: url(../images/localizacion_icon.png);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.elemento {
+    vertical-align: bottom;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#flex p {
+    width: 463px;
+    height: 134px;
+    font-family: 'Yuji Boku', serif;
+    background-size: cover;
+    font-size: 2.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 5px;
+    border-radius: 6px;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#beidou {
+    background-image: url(../images/beidou_icon.png);
+    order: 0;
+}
+
+#yanfei {
+    background-image: url(../images/yanfei_icon.png);
+    order: 7;
+}
+
+#ayaka {
+    background-image: url(../images/ayaka_icon.png);
+    order: 4;
+}
+
+#hutao {
+    background-image: url(../images/hu-tao_icon.png);
+    order: 6;
+}
+
+#eula {
+    background-image: url(../images/eula_icon.png);
+    order: 3;
+}
+
+#jean {
+    background-image: url(../images/jean_icon.png);
+    order: 9;
+}
+
+#mona {
+    background-image: url(../images/mona_icon.png);
+    order: 11;
+}
+
+#raiden {
+    background-image: url(../images/raiden_icon.png);
+    order: 1;
+}
+
+#noelle {
+    background-image: url(../images/noelle_icon.png);
+    order: 8;
+}
+
+#sucrose {
+    background-image: url(../images/sucrose_icon.png);
+    order: 10;
+}
+
+#ganyu {
+    background-image: url(../images/ganyu_icon.png);
+    order: 5;
+}
+
+#fischl {
+    background-image: url(../images/fischl_icon.png);
+    order: 2;
+}
+
+#table {
+    display: table;
+    border-spacing: 20px;
+}
+
+#row1, #row2, #row3, #row4, #row5, #row6 {
+	display: table-row;
+}
+
+#table p {
+    width: 463px;
+    height: 135px;
+    display: table-cell;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    font-size: xx-large;
+    padding-left: 5px;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+}
+
+#table h2 {
+    left: 500px;
+}
+
+h2 {
+    font-family: Taranis, serif;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#armas {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#mandoble {
+    background-image: url(../images/mandoble.png);
+}
+
+#lanza {
+    background-image: url(../images/lanza.png);
+}
+
+#catalizador {
+    background-image: url(../images/catalizador.png);
+}
+
+#espada {
+    background-image: url(../images/espada.png);
+}
+
+#arco {
+    background-image:url(../images/arco.png); 
+}
+
+#artefactos {
+    text-align: center;
+    padding-bottom: 15px;;
+}
+
+#flor {
+    background-image: url(../images/flor.png);
+}
+
+#pluma {
+    background-image: url(../images/pluma.png);
+}
+
+#arenas {
+    background-image: url(../images/arenas.png);
+}
+
+#caliz {
+    background-image: url(../images/caliz.png);
+}
+
+#tiara {
+    background-image: url(../images/tiara.png);
+}
+
+#clave {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#garra {
+    background-image: url(../images/garra.png);
+}
+
+#cola {
+    background-image: url(../images/cola.png);
+}
+
+#fragmento {
+    background-image: url(../images/fragmento.png);
+}
+
+#rama {
+    background-image: url(../images/rama.png);
+}
+
+#valentia {
+    background-image: url(../images/valentia.png);
+}
+
+.sectionChilde {
+    border-radius: 6px;
+    position: absolute;
+    width: 44.6%;
+    right: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+}
+
+.sectionAzhdaha {
+    border-radius: 6px;
+    position: absolute;
+    width: 28%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+    left: 1%;
+}
+
+.stormBoreas {
+    border-radius: 6px;
+    position: absolute;
+    right: 0%;
+    width: 24%;
+    background-color: rgba(0, 0, 0, 0.3);
+    right: 1%;
+}
+
+.stormBoreas img {
+    width: 100%;
+}
+
+.articleSignora {
+    border-radius: 6px;
+    position: absolute;
+    width: 73.3%;
+    top: 61.45%;
+    left: 1%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.absFooter {
+    position: absolute;
+    width: 97.3%;
+    top: 1307px;
+}
+
+#dvalin {
+    padding-bottom: 20px;
+}
+
+.articleSignora h2 {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.sectionAzhdaha h2 {
+    margin-top: 5px;
+}
+
+.sectionChilde h2 {
+    margin-top: 5px;
+}
