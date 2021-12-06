@@ -335,7 +335,7 @@ h2 {
     width: 100%;
 }
 
-.articleSignora {
+#articleSignora {
     border-radius: 6px;
     position: absolute;
     width: 73.3%;
@@ -354,7 +354,7 @@ h2 {
     padding-bottom: 20px;
 }
 
-.articleSignora h2 {
+#articleSignora h2 {
     margin-top: 5px;
     margin-bottom: 7px;
 }
@@ -365,4 +365,118 @@ h2 {
 
 .sectionChilde h2 {
     margin-top: 5px;
+}
+
+#grid {
+    display: grid;
+    background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+#grid article {
+    background-size: cover;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 5px;
+    border-radius: 6px;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#grid article a {
+    color: #a4d0ff;
+    text-decoration: none;
+}
+
+#grid article h3 {
+    font-family: 'Yuji Boku', serif;
+    margin-top: 0%;
+    margin-bottom: 0.1em;
+}
+
+#xiao {
+    position: relative;
+    grid-column-start: 42;
+    grid-column-end: 59;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#xiao img {
+    border-radius: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#razor {
+    position: relative;
+    grid-column-start: 19;
+    grid-column-end: 42;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#razor img {
+    border-radius: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#zhongli {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 19;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#zhongli img {
+    position: absolute;
+    top: 0px;
+    right: 0px
+}
+
+#venti {
+    position: relative;
+    grid-column-start: 23;
+    grid-column-end: 39;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#venti img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#kaeya {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 23;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#kaeya img {
+    border-radius: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#thoma {
+    position: relative;
+    grid-column-start: 39;
+    grid-column-end: 59;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#thoma img {
+    border-radius: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
