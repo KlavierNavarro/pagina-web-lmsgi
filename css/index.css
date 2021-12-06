@@ -110,6 +110,7 @@ footer {
     text-align: center;
     border-radius: 6px;
     color: #FFFFFF;
+    clear: right;
 }
 
 .elemento {
@@ -217,8 +218,16 @@ footer {
     vertical-align: middle;
 }
 
-#table h2 {
+#table h1 {
     left: 500px;
+}
+
+h1 {
+    font-family: Taranis, serif;
+    font-size: 2.5em;
+    text-align: center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 h2 {
@@ -339,7 +348,7 @@ h2 {
     border-radius: 6px;
     position: absolute;
     width: 73.3%;
-    top: 61.45%;
+    top: 62%;
     left: 1%;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -347,7 +356,7 @@ h2 {
 .absFooter {
     position: absolute;
     width: 97.3%;
-    top: 1307px;
+    top: 1318px;
 }
 
 #dvalin {
@@ -357,6 +366,7 @@ h2 {
 #articleSignora h2 {
     margin-top: 5px;
     margin-bottom: 7px;
+    padding-bottom: 3px;
 }
 
 .sectionAzhdaha h2 {
@@ -479,4 +489,124 @@ h2 {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.float {
+    float: right;
+    width: 733px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0px 31px 10px 5px;
+}
+
+.float h2 {
+    margin-bottom: 1%;
+    margin-top: 1%
+}
+
+.lista h2 {
+    margin-top: 4.8%;
+}
+
+.lista {
+    height: 456px;
+    font-size: 1.5em;
+    width: 43%;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 5px 5px 10px 31px;
+}
+
+.lista h2 {
+    padding-top: 5px;
+}
+
+.ciudad {
+    list-style: none;
+}
+
+.ciudad::before {
+    content: '';
+    display: inline-block;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../images/ciudad_icon.png);
+}
+
+.dominio {
+    list-style: none;
+    margin-left: -14px;
+}
+
+.dominio::before {
+    margin-right: 5px;
+    content: '';
+    display: inline-block;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../images/mazmorra_icon.png);
+}
+
+.fotos {
+    clear: right;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fotos h2{
+    padding-top: 10px;
+}
+
+.fotos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.audio {
+    position: fixed;
+    bottom: 0px;
+}
+
+audio {
+    width: 1448px;
+    height: 30px;
+}
+
+.ciudad a {
+    color:  #cea4ff;
+    text-decoration: none
+}
+
+.dominio a {
+    color: #a4d0ff;
+}
+
+.tablahtml {
+    padding: 1px 40px 10px 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    clear: right;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+table {
+    background-color: rgba(99, 98, 98, 0.7);
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+video {
+    margin: 0px 5px 0px 5px;
 }
