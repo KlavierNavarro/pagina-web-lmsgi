@@ -555,7 +555,11 @@ h2 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.fotos h2{
+.fotos h3{
+    font-family: 'Yuji Boku', serif;
+    font-size: 2em;
+    color:rgba(255, 255, 255, 0.7);
+    text-align: center;
     padding-top: 10px;
 }
 
